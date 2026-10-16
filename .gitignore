@@ -1,0 +1,21 @@
+# Altium local history and generated cache
+History/
+__Previews/
+Project Logs for */
+*.PrjPCBStructure
+*.PcbDoc.htm
+# Local OS files
+desktop.ini
+Thumbs.db
+# IAR intermediates and local IDE state
+**/Obj/
+**/List/
+**/settings/
+*.pbi
+*.dep
+*.o
+*.log
+# Local secrets
+.env
+.env.*
+!.env.example

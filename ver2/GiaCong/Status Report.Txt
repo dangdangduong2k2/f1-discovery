@@ -1,0 +1,10 @@
+Output: BOM
+Type  : BOM
+From  : Variant [giacong] of Project [CH32V003J4M6_kit.PrjPCB]
+   Generated File[2026-04-12 BOM CH32V003J4M6_kit.xlsx]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:01:09 AM On 4/12/2026

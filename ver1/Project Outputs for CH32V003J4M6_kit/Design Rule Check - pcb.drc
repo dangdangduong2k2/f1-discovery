@@ -1,0 +1,78 @@
+Protel Design System Design Rule Check
+PCB File : D:\0.Projects\Personal\stlink - Copy\pcb.PcbDoc
+Date     : 4/1/2026
+Time     : 11:52:35 PM
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InNetClass('USB')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InComponent('J1')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InComponent('J9')),(All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=10mil) (InComponent('J2')),(All)
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+   Violation between Short-Circuit Constraint: Between Pad J1-(243.307mil,1017.323mil) on Multi-Layer And Polygon Region (36 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J1-(243.307mil,789.764mil) on Multi-Layer And Polygon Region (10 hole(s)) Top Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J1-(243.307mil,789.764mil) on Multi-Layer And Polygon Region (36 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J2-(3683.858mil,1001.575mil) on Multi-Layer And Polygon Region (11 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J2-(3683.858mil,1001.575mil) on Multi-Layer And Polygon Region (23 hole(s)) Top Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J2-(3683.858mil,774.016mil) on Multi-Layer And Polygon Region (11 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J2-(3683.858mil,774.016mil) on Multi-Layer And Polygon Region (23 hole(s)) Top Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J9-(243.307mil,1335.039mil) on Multi-Layer And Polygon Region (36 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J9-(243.307mil,1335.039mil) on Multi-Layer And Polygon Region (6 hole(s)) Top Layer Location : [X = 0mil][Y = 0mil]
+   Violation between Short-Circuit Constraint: Between Pad J9-(243.307mil,1562.598mil) on Multi-Layer And Polygon Region (36 hole(s)) Bottom Layer Location : [X = 0mil][Y = 0mil]
+Rule Violations :10
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Modified Polygon (Allow modified: No), (Allow shelved: No)
+Rule Violations :0
+
+Processing Rule : Width Constraint (Min=10mil) (Max=50mil) (Preferred=10mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Relief Connect )(Expansion=20mil) (Conductor Width=35mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=3.937mil) (Max=236.22mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Minimum Solder Mask Sliver (Gap=1mil) (All),(All)
+   Violation between Minimum Solder Mask Sliver Constraint: (0.662mil < 1mil) Between Pad U5-1(1185.004mil,1899.392mil) on Top Layer And Pad U5-2(1185.004mil,1879.707mil) on Top Layer [Top Solder] Mask Sliver [0.662mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.662mil < 1mil) Between Pad U5-10(1354.295mil,1899.392mil) on Top Layer And Pad U5-9(1354.295mil,1879.707mil) on Top Layer [Top Solder] Mask Sliver [0.662mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 1mil) Between Pad U5-2(1185.004mil,1879.707mil) on Top Layer And Pad U5-3(1185.004mil,1860.022mil) on Top Layer [Top Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 1mil) Between Pad U5-3(1185.004mil,1860.022mil) on Top Layer And Pad U5-4(1185.004mil,1840.337mil) on Top Layer [Top Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.662mil < 1mil) Between Pad U5-4(1185.004mil,1840.337mil) on Top Layer And Pad U5-5(1185.004mil,1820.652mil) on Top Layer [Top Solder] Mask Sliver [0.662mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.662mil < 1mil) Between Pad U5-6(1354.295mil,1820.652mil) on Top Layer And Pad U5-7(1354.295mil,1840.337mil) on Top Layer [Top Solder] Mask Sliver [0.662mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 1mil) Between Pad U5-7(1354.295mil,1840.337mil) on Top Layer And Pad U5-8(1354.295mil,1860.022mil) on Top Layer [Top Solder] Mask Sliver [0.661mil]
+   Violation between Minimum Solder Mask Sliver Constraint: (0.661mil < 1mil) Between Pad U5-8(1354.295mil,1860.022mil) on Top Layer And Pad U5-9(1354.295mil,1879.707mil) on Top Layer [Top Solder] Mask Sliver [0.661mil]
+Rule Violations :8
+
+Processing Rule : Silk To Solder Mask (Clearance=0mil) (IsPad),(All)
+Rule Violations :0
+
+Processing Rule : Silk to Silk (Clearance=1mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Height Constraint (Min=0mil) (Max=1574.803mil) (Prefered=500mil) (All)
+Rule Violations :0
+
+
+Violations Detected : 18
+Waived Violations : 0
+Time Elapsed        : 00:00:01
